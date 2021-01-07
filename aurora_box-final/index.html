@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+  <title>Aurora Box</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato&display=swap">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <div class="topbar">
+    <div class="top-wrapper">
+      <ul class="contact-list">
+        <li><img src="assets/icon-phone.png" alt="kontakt telefon">293 939 098</li>
+        <li><img src="assets/icon-mail.png" alt="kontakt email"><a href="mailto:kontakt@aurorabox.pl">kontakt@aurorabox.pl</a>
+      </ul>
+      <ul class="user-list">
+        <li><img src="assets/icon-login.png" alt="logowanie"><a href="#">Zaloguj się</a></li>
+        <li><img src="assets/icon-new-user.png" alt="rejestracja"><a href="#">Załóż konto</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="main-wrapper">
+    <header>
+      <div class="icon-menu">
+        <div class="logo">
+          <a href="#"><img src="assets/logo.png" alt="logo"></a>
+        </div>
+        <div class="icon-hamburger">
+          <i class="fas fa-bars"></i>
+        </div>
+        <div class="search">
+          <img class="icon-lens" src="assets/icon-lens.png" alt="szukaj">
+            <div class="search-input-container">
+              <input type="text" placeholder="Co chcesz kupić?" class="search-input">
+              <button><img class="icon-lens" src="assets/icon-lens.png" alt="szukaj"></button>
+            </div>
+        </div>
+        <div class="customer-orders">
+          <div class="basket">
+            <img class="icon-basket" src="assets/icon-basket.png" alt="zamówienia">
+            <div class="tooltip">
+              <span class="orders-value">2</span>
+            </div>
+            <div class="basket-description">
+              <span class="basket-description-value">Twój koszyk</span>
+            </div>
+          </div>
+        </div>
+      </div> 
+      <nav class="main-menu">
+        <div class="mobile-menu-close-container">
+          <button class="btn-mobile-close">X</button>
+        </div>
+        <ul class="main-menu-list">
+          <li><a href="#">Kategorie</a></li>
+          <li><a href="#">Nowości</a></li>
+          <li><a href="#">Promocje</a></li>
+          <li><a href="#"><span class="sales">Wyprzedaże</span></a></li>
+          <li><a href="#">Kolekcje Sezony</a></li>
+          <li><a href="#">Nasza Oferta</a></li>
+          <li><a href="#">Trendy 2018</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Kontakt</a></li>
+        </ul>
+      </nav> 
+    </header>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
